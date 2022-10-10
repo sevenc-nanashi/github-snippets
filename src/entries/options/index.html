@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+  </head>
+
+  <body>
+    <div id="app">
+      <form action="#">
+        <h2>Snippets</h2>
+        <p>
+          Use <code>{owner}</code> to insert the owner of the repository,
+          <code>{repo}</code> to insert the name of the repository.
+        </p>
+        <table id="snippet-table">
+          <tr>
+            <th>Name</th>
+            <th>Code</th>
+            <th>Description</th>
+            <th>Delete</th>
+          </tr>
+          <tr id="no-snippets">
+            <td colspan="4">No snippets are registered yet.</td>
+          </tr>
+        </table>
+        <button class="browser-style" id="add-snippet">New</button>
+        <button class="browser-style" type="submit" id="save-snippet">
+          Save
+        </button>
+        <span id="save-snippet-status">
+          Saved!
+        </span>
+        <h3>Presets</h3>
+        <div id="preset-container"></div>
+      </form>
+    </div>
+    <template id="snippet-row-template">
+      <tr class="snippet-row">
+        <td><input type="text" data-field="name" /></td>
+        <td><input type="text" data-field="content" /></td>
+        <td><input type="text" data-field="description" /></td>
+        <td><button class="browser-style">Delete</button></td>
+      </tr>
+    </template>
+
+    <script type="module" src="./options.ts"></script>
+  </body>
+</html>
