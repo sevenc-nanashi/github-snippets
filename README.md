@@ -1,4 +1,6 @@
 # github-snippets / Snippets section in GitHub repository
+[![Mozilla Add-on](https://img.shields.io/amo/users/github-snippets?logo=firefox&logoColor=fff&label=Firefox)](https://addons.mozilla.org/en/firefox/addon/github-snippets/)  
+
 ![screenshot](./screenshot.png)
 
 Adds "Snippets" section in GitHub repository!
