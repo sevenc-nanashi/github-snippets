@@ -1,5 +1,5 @@
 # github-snippets / Snippets section in GitHub repository
-[![Mozilla Add-on](https://img.shields.io/amo/users/github-snippets?logo=firefox&logoColor=fff&label=Firefox)](https://addons.mozilla.org/en/firefox/addon/github-snippets/)  
+[![Mozilla Add-on](https://img.shields.io/amo/users/github-snippets?logo=firefox&logoColor=fff&label=Firefox)](https://addons.mozilla.org/en/firefox/addon/github-snippets/) [![Chrome WebStore](https://img.shields.io/chrome-web-store/users/clflelhdbiblljdgcmologglkapogmpd?logo=google%20chrome&logoColor=fff&label=Chrome)](https://chrome.google.com/webstore/detail/github-snippets/clflelhdbiblljdgcmologglkapogmpd)  
 
 ![screenshot](./screenshot.png)
 
